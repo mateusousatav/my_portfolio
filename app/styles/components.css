@@ -1,0 +1,35 @@
+@layer components {
+    .heading1 {
+        font-size: 64px;
+    }
+
+    .myButton {
+        background-color: #CFE0C3;
+        color: black;
+        border-radius: 30px;
+        padding: 10px 15px
+    }
+
+    .myCard {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid white;
+        width: 505px;
+        height: 600px;
+    }
+
+    .myCard_bottomContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 20px;
+        padding-left: 50px;
+        border: 1px solid white
+    }
+
+    .myCard_buttonContainer {
+        display: flex;
+        justify-content: end
+    }
+}
+
