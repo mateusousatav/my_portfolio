@@ -3,6 +3,22 @@
         font-size: 64px;
     }
 
+    .heading2 {
+        font-size: 64px;
+    }
+
+    .caption1 {
+        font-size: 64px;
+    }
+
+    .caption2 {
+        font-size: 64px;
+    }
+
+    .paragraph1 {
+        font-size: 64px;
+    }
+
     .myButton {
         background-color: #CFE0C3;
         color: black;
@@ -14,8 +30,15 @@
         display: flex;
         flex-direction: column;
         border: 1px solid white;
-        width: 505px;
+        width: 450px;
         height: 600px;
+    }
+
+
+    .myCard_topContainer {
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
     }
 
     .myCard_bottomContainer {
