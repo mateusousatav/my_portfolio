@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function ProjectCard({src, alt, title}:{src:string, alt:string, title:string}) {
 
     return(
-        <div className="myCard">
+        <div className="myCard bg-gradient-to-b from-[#1F363D]  to-[#40798C]">
             <div className="myCard_topContainer">
                 <Image className="cardImg"
                 src={src}
