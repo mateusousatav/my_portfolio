@@ -11,7 +11,7 @@ export default function Home() {
     <div>
       <div className="flex flex-col items-center justify-center lg:flex-row lg:justify-around  pt-16 px-10">
         <div>
-          <p className="heading1 text-5xl">Welcome, my name is Mateus.</p>
+          <p className="heading1 text-5xl">Welcome, my name is Mateus Sousa.</p>
         </div>
         <div className="mt-30 lg:mt-10">
           {/* i want to incorporate a button that makes the image stop bouncing and starts spinning; i want the user to be able to interract with my site by having the ability to switch animations.*/}
