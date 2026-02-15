@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 import { Geist, Geist_Mono, Montserrat, Open_Sans} from "next/font/google";
 import "./globals.css";
 import './styles/base.css';
@@ -43,6 +44,7 @@ export default function RootLayout({
         <div className="min-h-screen bg-gray-900 font-montserrat">  {/**bg-gradient-to-r from-blue-900  to-green-900 */}
           <Navbar />
           {children}
+          <Footer />
         </div>
       </body>
     </html>

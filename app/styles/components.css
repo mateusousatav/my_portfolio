@@ -35,13 +35,26 @@
     }
 
     .myButton {
-        font-size: 14px;
+        font-size: 15px;
         font-weight: 600;
-        background-color: #CFE0C3;
+        background-color: #BFD8AC; 
         color: black;
         border-radius: 30px;
-        padding: 10px 15px;
+        padding: 12px 26px;
+        border: 1px solid #A9C89A;
+        transition: all 0.25s ease;
     }
+
+    .myButton:hover {
+        background-color: #A9C89A;
+        transform: translateY(-2px);
+    }
+
+    .myButton:active {
+        background-color: #97B889;
+        transform: translateY(0);
+    }
+
 
     .myCard {
         display: flex;
@@ -54,7 +67,7 @@
     .myCard_topContainer {
         display: flex;
         justify-content: center;
-        padding: 20px 0;
+        padding: 25px 25px;
         border-radius: 30px;
     }
 
@@ -67,4 +80,21 @@
         height: 100%;
         border-radius: 0 0 30px 30px; 
     }
+
+    .burger {
+        width: 40px
+    }
+
+    @media (max-width: 425px) {
+        .links {
+            display: none !important;
+        }
+    }
+
+    @media (min-width: 426px) {
+        .burger, .mobileMenu {
+            display: none !important;
+        }
+    }
+
 }
