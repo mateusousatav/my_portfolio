@@ -4,8 +4,7 @@ export default function Footer() {
   return (
     <footer className="mt-10 bg-gray-800 p-5">
       <div className="flex flex-col md:flex-row md:justify-between gap-10">
-
-        <p className="heading1 text-blue-500">Be You.</p>
+        <p className="heading1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">Be You</p>
 
         <div className="flex flex-col md:flex-row gap-10">
           <div className="flex flex-col gap-2">
