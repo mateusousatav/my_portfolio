@@ -5,10 +5,8 @@ export default function Footer() {
     <footer className="mt-10 bg-gray-800 p-5">
       <div className="flex flex-col md:flex-row md:justify-between gap-10">
 
-        {/* Left Section */}
         <p className="heading1 text-blue-500">Be You.</p>
 
-        {/* Middle Section */}
         <div className="flex flex-col md:flex-row gap-10">
           <div className="flex flex-col gap-2">
             <p className="caption1">Navigation</p>
@@ -35,7 +33,6 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Right Section */}
         <div className="flex flex-col justify-around">
           <p className="text-xs text-gray-400">
             Built with NextJS & Tailwind CSS
