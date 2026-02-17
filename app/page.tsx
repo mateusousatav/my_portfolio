@@ -5,6 +5,7 @@ import TeaCozyImage from "../public/teacozy.png"
 import OurBloomsImage from "../public/ourblooms.png"
 import ChoHanImage from "../public/chohan.png"
 import DecentPurchasesImage from "../public/decentpurchases.png"
+import Typewriter from 'typewriter-effect'
 
 export default function Home() {
   return (

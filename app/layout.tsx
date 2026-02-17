@@ -41,7 +41,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable} ${open_sans.variable} antialiased`}
       >
-        <div className="min-h-screen bg-gray-900 font-montserrat">  {/**bg-gradient-to-r from-blue-900  to-green-900 */}
+        <div className="min-h-screen bg-gray-900 font-montserrat">  
           <Navbar />
           {children}
           <Footer />
