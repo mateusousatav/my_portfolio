@@ -1,38 +1,3 @@
-// import Link from 'next/link'
-
-// export default function Footer() {
-
-//     return(
-//         <footer className="mt-10 bg-gray-800 p-5">
-//             <div className="flex gap-10 justify-between">
-//                 <p className="heading1 text-blue-500">Be You.</p>
-//                 <div className="flex gap-15">
-//                     <div className="flex flex-col gap-2">
-//                         <p className="caption1">Navigation</p>
-//                         <ul className="underline decoration-blue-500">
-//                             <li className="text-xs text-gray-400"><Link href="/">Home</Link></li>
-//                             <li className="my-2 text-xs text-gray-400"><Link href="/about_me">About Me</Link></li>
-//                             <li className="text-xs text-gray-400"><Link href="contact_me">Contact Me</Link></li>
-//                         </ul>
-//                     </div>
-//                     <div className="flex flex-col gap-2">
-//                         <p className="caption1">Social</p>
-//                         <ul className="underline decoration-blue-500">
-//                             <li className="text-xs text-gray-400">GitHub</li>
-//                             <li className="my-2 text-xs text-gray-400">Instagram</li>
-//                             <li className="text-xs text-gray-400">Linkedin</li>
-//                         </ul>
-//                     </div>
-//                 </div>
-//                 <div className="flex flex-col justify-around">
-//                     <p className="text-xs text-gray-400">Built with NextJS & Tailwind CSS</p>
-//                     <p className="text-xs text-gray-400 mt-5">© {new Date().getFullYear()} Mateus Sousa. All rights reserved.</p>
-//                 </div>
-//             </div>
-//         </footer>
-//     )
-// }
-
 import Link from 'next/link'
 
 export default function Footer() {
